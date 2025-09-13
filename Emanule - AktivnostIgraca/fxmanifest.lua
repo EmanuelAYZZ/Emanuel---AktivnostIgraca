@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'Sustav aktivnosti i prijava igrača (ESX/QB)'
-author 'GPT'
+author 'Emanuel'
 
 ui_page 'html/index.html'
 
@@ -19,3 +19,4 @@ shared_scripts {
 
 client_script 'client.lua'
 server_script 'server.lua'
+
