@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS prijave (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    igrac_id VARCHAR(50) NOT NULL,
+    igrac_ime VARCHAR(100) NOT NULL,
+    prijavio_id VARCHAR(50) NOT NULL,
+    prijavio_ime VARCHAR(100) NOT NULL,
+    razlog TEXT NOT NULL,
+    vrijeme TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
